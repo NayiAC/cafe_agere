@@ -1,0 +1,44 @@
+// location section
+.hero {
+  display: flex;
+  flex-direction: row;
+  height: 27rem;
+
+  &__img {
+    width: 70%;
+  }
+
+  &__caract {
+    display: flex;
+    width: 30%;
+    height: 30%;
+background-color: $primary-white;
+text-align: center; 
+position: absolute;
+& hero__caract--1 {
+  
+}
+
+  }
+
+  &__Name {
+    width: 30%;
+  }
+}
+
+
+// location section
+.location {
+  display: flex;
+
+  &__left {
+    width: 70%;
+  }
+
+
+
+
+&__right {
+  width: 30%;
+}
+}
