@@ -52,24 +52,19 @@ p, .fs-md {
   padding-block: 2rem;
 }
 
-.hero {
+.section {
   display: flex;
   flex-direction: row;
   height: 27rem;
-}
-.hero__img {
-  width: 70%;
-}
-.hero__caract {
-  display: flex;
-  width: 30%;
-  height: 30%;
-  background-color: #fff;
-  text-align: center;
   position: absolute;
 }
-.hero__Name {
+.section__img {
+  width: 70%;
+}
+.section__name {
   width: 30%;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .location {
