@@ -2,6 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: $outer-screen-margin;
-    padding-block: 2rem;
+    margin-inline: 0 $outer-screen-margin;
+    padding-block: 2rem 0;
   }

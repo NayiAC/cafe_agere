@@ -1,0 +1,22 @@
+.hero {
+
+  &__img {
+      width: 100%;
+  }
+
+  &__stats {
+      background-color: white;
+      bottom: 0%;
+      right: 0%;
+      position: absolute;
+      display: flex;
+      padding: 3rem 2rem;
+      width: 50%;
+
+      &--stat {
+          text-align: center;
+          margin-right: 1rem;
+          width: 100%;
+      }
+  }
+}
