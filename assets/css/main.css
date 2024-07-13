@@ -203,6 +203,7 @@ p, .fs-md {
   list-style: none;
   align-items: center;
   gap: 1rem;
+  margin-left: 2rem;
 }
 
 .btn--primary {
